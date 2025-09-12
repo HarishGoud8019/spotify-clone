@@ -7,7 +7,7 @@ body{
     background-color: antiquewhite;
 }
 nav{
-    font-family:"Ubuntu", sans-serif;;
+    font-family:"Ubuntu", sans-serif;
 }
 nav ul{
     display: flex;
@@ -29,4 +29,37 @@ nav li{
     align-items: center;
     font-weight: bold;
     font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family:"Ubuntu", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("bg.jpg");
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
 }
